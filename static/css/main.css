@@ -1,0 +1,63 @@
+/*GLOBAL*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*MENU*/
+#menu li > a {
+    font-size: 18px;
+    /*font-weight: bold;*/
+    color: #3f3f3f;
+}
+
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*SLIDE DE IMAGENES*/
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/*MEDIA QUERIES PANTALLA ANCHA*/
+
+/*MEDIA QUERIES PANTALLA SM*/
+@media (max-width:768px){
+    #intro,#equipo{
+        width: 90% !important;
+    }
+
+    #equipo p {
+        display: none;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+/*MEDIA QUERIES PANTALLA EXTRA-SM*/
+@media (max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+/*CONTACTO BACKGROUND*/
+
+/*#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto {
+    background-color:rgb(113, 107, 150);
+    min-height: 500px;
+    position: relative;
+}
